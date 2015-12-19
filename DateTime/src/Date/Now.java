@@ -23,7 +23,6 @@ public class Now {
 		Date now = new Date();
 		long nowLong = now.getTime();
 		System.out.println("Value is " + nowLong);
-
 	}
 }
 

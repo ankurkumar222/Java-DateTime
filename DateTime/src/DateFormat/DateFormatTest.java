@@ -12,10 +12,11 @@ public class DateFormatTest {
    
       // Use Date.toString()
       System.out.println(now);
-   
-      // Use DateFormat
+
       DateFormat formatter = DateFormat.getInstance(); // Date and time
       String dateStr = formatter.format(now);
+      
+      
       System.out.println(dateStr);
       formatter = DateFormat.getTimeInstance();        // time only
       System.out.println(formatter.format(now));

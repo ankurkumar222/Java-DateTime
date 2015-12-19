@@ -9,8 +9,7 @@ import java.text.*;
 
 class Mortgage {
 	public static void main(String[] args) {
-		GregorianCalendar mortgage = new GregorianCalendar(1997, Calendar.MAY,
-				18);
+		GregorianCalendar mortgage = new GregorianCalendar(1997, Calendar.MAY,	18);
 		mortgage.add(Calendar.YEAR, 15);
 		Date d = mortgage.getTime();
 		DateFormat df = DateFormat.getDateInstance();

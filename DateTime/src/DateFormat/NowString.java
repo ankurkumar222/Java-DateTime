@@ -1,8 +1,7 @@
 package DateFormat;
 
-/*Converting to a String		
-		You can convert a Date object to a string with the format method. 
-		This is shown in the following demonstration program:
+/*
+ * convert a Date object to a string with the format method. 
  */
 
 import java.util.*;
